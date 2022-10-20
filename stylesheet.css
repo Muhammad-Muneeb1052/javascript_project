@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.outer_container{
+    width: 90%;
+    min-height: 100vh;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.groceries{
+    width: 40%;
+    min-height: 50vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 10px rgb(194, 127, 127);
+}
+.groceries h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.pencil{
+    font-size: 2rem;
+    color: orange;
+   
+}
+#input_field{
+   width: 400px; 
+   height: 40px;
+   border: none;
+   outline: none;
+   border-bottom: 3px solid black;
+   font-family: 'Courier New', Courier, monospace;
+   border-radius: 5px;
+}
+.allitems{
+    width: 400px;
+    border-bottom: 3px solid black;
+}
+#allitems h2{
+    width: 400px;
+    text-align: start;
+    border-bottom: 1px solid black;
+    margin-left: 50px;
+    padding: 5px 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
